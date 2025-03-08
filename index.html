@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouria Nailbox</title>
+    <!-- Nhúng Style CSS -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Nhúng Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- nhúng font Awesome -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <!-- header__navbar -->
+                <nav class="header__navbar">
+                    <div class="header__navbar-toggle" id="navbar-toggle">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <ul class="header__navbar-list" id="navbar-list">
+
+                        <li class="header__navbar-item">
+                            <i class="header__navbar-icon fa-solid fa-house"></i>
+                            Trang chủ
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer" style="
+                                margin-right: 10px;">Liên hệ</span>
+                            <a href="https://www.facebook.com/profile.php?id=100083749616772" target="_blank"
+                                class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fouria.nailbox/" target="_blank"
+                                class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/thoi-gian-hoat-dong.png" alt=""
+                                                class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Thời gian hoạt động</span>
+                                                <span class="header__notify-descrition"> 24h</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/2025-notify.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Lịch nghỉ tết 2025</span>
+                                                <span class="header__notify-descrition"> 26/1 -> 2/2</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-bnt">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link" id="register-btn">
+                                Đăng ký
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link" id="login-btn">
+                                Đăng nhập
+                                <i class="header__navbar-icon fa-solid fa-circle-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- header-with-search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="./assets/img/logo.jpg" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Mẫu mới về</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Hot 2024</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <div class="header__cart">
+                        <a href="cart.html">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- category-navbar -->
+        <nav class="category-navbar">
+            <div class="grid">
+                <ul class="category-navbar-list">
+                    <li class="category-navbar-item">
+                        <a href="hot2025.html" class="category-navbar-link">Hot 2025</a>
+                    </li>
+                    <li class="category-navbar-item">
+                        <a href="hot2024.html" class="category-navbar-link">Hot 2024</a>
+                    </li>
+                    <li class="category-navbar-item">
+                        <a href="noel.html" class="category-navbar-link">NOEL</a>
+                    </li>
+                    <li class="category-navbar-item">
+                        <a href="productnew.html" class="category-navbar-link">Mẫu mới về</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <div class="banner">
+            <div class="banner__slides">
+                <div class="banner__slide active">
+                    <img src="./assets/img/2025-notify.jpg" alt="Banner 1" class="banner__img">
+                </div>
+                <div class="banner__slide">
+                    <img src="./assets/img/thoi-gian-hoat-dong.png" alt="Banner 2" class="banner__img">
+                </div>
+                <div class="banner__slide">
+                    <img src="./assets/img/product4/product4-1.jpg" alt="Banner 3" class="banner__img">
+                </div>
+            </div>
+            <button class="banner__btn banner__btn--prev">&#10094;</button>
+            <button class="banner__btn banner__btn--next">&#10095;</button>
+            <div class="banner__dots"></div>
+        </div>
+        <div class="container">
+            <div class="grid">
+                <h3 class="title" style="margin: 20px 0 0 16px">Sản phẩm nổi bật</h3>
+                <div class="grid__row" id="product-list">
+                    <!-- Products will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img src="./assets/img/logo.jpg" alt="Logo" class="footer__logo-img">
+                    </div>
+                    <div class="footer__info">
+                        <p class="footer__hotline">Hotline: 123-456-789</p>
+                        <p class="footer__email">Email: info@fourianailbox.com</p>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/profile.php?id=100083749616772" target="_blank"
+                                class="footer__social-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fouria.nailbox/" target="_blank"
+                                class="footer__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@fouria.nailbox" target="_blank"
+                                class="footer__social-link">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer__text">© 2025 Fouria Nailbox. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="login-modal" id="login-modal">
+        <div class="login-modal-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <div class="modal-tabs">
+                <button class="modal-tab active" data-tab="login">Đăng nhập</button>
+                <button class="modal-tab" data-tab="register">Đăng ký</button>
+            </div>
+
+            <form id="login-form" class="form-section active">
+                <div class="form-group">
+                    <label for="login-username">Tài khoản</label>
+                    <input type="text" id="login-username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Mật khẩu</label>
+                    <input type="password" id="login-password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </form>
+
+            <form id="register-form" class="form-section">
+                <div class="form-group">
+                    <label for="register-username">Tài khoản</label>
+                    <input type="text" id="register-username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Mật khẩu</label>
+                    <input type="password" id="register-password" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm-password">Xác nhận mật khẩu</label>
+                    <input type="password" id="register-confirm-password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- nhúng js main -->
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
