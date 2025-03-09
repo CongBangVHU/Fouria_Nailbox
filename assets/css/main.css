@@ -1141,9 +1141,6 @@
     }
 }
 
-/* mobile & tablet: width < 1024px */
-@media only screen and (max-width: 63.9375rem) {}
-
 /* mobile: width < 740px */
 @media only screen and (max-width: 46.1875rem) {
     .header__navbar {
