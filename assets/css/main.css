@@ -1155,7 +1155,6 @@
     }
 
     .header__navbar-list {
-        /* display: flex; */
         justify-content: space-between;
     }
 
@@ -1191,7 +1190,7 @@
     }
 
     .category-navbar-list {
-        display: none;
+        /* display: none; */
     }
 }
 
