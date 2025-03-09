@@ -11,9 +11,16 @@
 }
 
 .header__navbar-toggle {
-    display: none;
+    display: block;
     font-size: 2rem;
     cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .header__navbar-list {
@@ -1143,8 +1150,13 @@
 
 /* mobile: width < 740px */
 @media only screen and (max-width: 46.1875rem) {
-    .header__navbar {
+    .header__navbar-list--left {
         display: none;
+    }
+
+    .header__navbar-list {
+        /* display: flex; */
+        justify-content: space-between;
     }
 
     .grid__row {
